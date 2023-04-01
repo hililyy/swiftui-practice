@@ -14,6 +14,7 @@
 		2ACFAB5B29D48293009F0E9B /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB5A29D48293009F0E9B /* TextBasic.swift */; };
 		2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB8B29D5C5BB009F0E9B /* ShapeBasic.swift */; };
 		2ACFAB8E29D874EF009F0E9B /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB8D29D874EF009F0E9B /* ColorBasic.swift */; };
+		2ACFAB9029D89AAE009F0E9B /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB8F29D89AAE009F0E9B /* GradientBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2ACFAB5A29D48293009F0E9B /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		2ACFAB8B29D5C5BB009F0E9B /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		2ACFAB8D29D874EF009F0E9B /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		2ACFAB8F29D89AAE009F0E9B /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2ACFAB5A29D48293009F0E9B /* TextBasic.swift */,
 				2ACFAB8B29D5C5BB009F0E9B /* ShapeBasic.swift */,
 				2ACFAB8D29D874EF009F0E9B /* ColorBasic.swift */,
+				2ACFAB8F29D89AAE009F0E9B /* GradientBasic.swift */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACFAB9029D89AAE009F0E9B /* GradientBasic.swift in Sources */,
 				2ACFAB5B29D48293009F0E9B /* TextBasic.swift in Sources */,
 				2ACFAB4F29D48228009F0E9B /* ContentView.swift in Sources */,
 				2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */,
