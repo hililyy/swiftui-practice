@@ -17,6 +17,7 @@
 		2ACFAB8E29D874EF009F0E9B /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB8D29D874EF009F0E9B /* ColorBasic.swift */; };
 		2ACFAB9029D89AAE009F0E9B /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB8F29D89AAE009F0E9B /* GradientBasic.swift */; };
 		2ACFAB9229D8A091009F0E9B /* IconBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFAB9129D8A091009F0E9B /* IconBasic.swift */; };
+		2AEB5D5B29DC6545004AB5B5 /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB5D5A29DC6545004AB5B5 /* FrameBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2ACFAB8D29D874EF009F0E9B /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		2ACFAB8F29D89AAE009F0E9B /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 		2ACFAB9129D8A091009F0E9B /* IconBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBasic.swift; sourceTree = "<group>"; };
+		2AEB5D5A29DC6545004AB5B5 /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				2ACFAB8F29D89AAE009F0E9B /* GradientBasic.swift */,
 				2ACFAB9129D8A091009F0E9B /* IconBasic.swift */,
 				2A0791CD29DB124900057796 /* ImageBasic.swift */,
+				2AEB5D5A29DC6545004AB5B5 /* FrameBasic.swift */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
 			);
@@ -163,6 +166,7 @@
 				2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */,
 				2ACFAB8E29D874EF009F0E9B /* ColorBasic.swift in Sources */,
 				2ACFAB4D29D48228009F0E9B /* SwiftUIBasicApp.swift in Sources */,
+				2AEB5D5B29DC6545004AB5B5 /* FrameBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
