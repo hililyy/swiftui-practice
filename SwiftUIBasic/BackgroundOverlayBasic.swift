@@ -15,14 +15,15 @@ struct BackgroundOverlayBasic: View {
                 .background(
                     Circle()
                         .fill(
-                            LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .leading, endPoint: .trailing)
-                        )
-                )
+                            LinearGradient(
+                                gradient: Gradient(colors: [.red, .blue]),
+                                startPoint: .leading,
+                                endPoint: .trailing)))
                 .frame(width: 120, height: 120)
                 .background(
                     Circle()
-                        .fill(.red)
-                )
+                        .fill(.red))
+            
             Divider()
             
             Circle()
@@ -31,26 +32,25 @@ struct BackgroundOverlayBasic: View {
                 .overlay(
                     Text("1")
                         .font(.title)
-                        .foregroundColor(.white)
-                )
+                        .foregroundColor(.white))
                 .background(
                     Circle()
                         .fill(.purple)
-                        .frame(width: 120, height: 120)
-                )
+                        .frame(width: 120, height: 120))
+            
             Divider()
+            
             Rectangle()
                 .frame(width: 200, height: 200)
                 .overlay(
                     Rectangle()
                         .fill(.blue)
                         .frame(width: 100, height: 100)
-                    , alignment: .leading
-                )
-                .background(Rectangle()
-                    .fill(.red)
-                    .frame(width: 250, height: 250)
-                )
+                    , alignment: .leading)
+                .background(
+                    Rectangle()
+                        .fill(.red)
+                        .frame(width: 250, height: 250))
                 .padding()
             
             Divider()
@@ -62,8 +62,7 @@ struct BackgroundOverlayBasic: View {
                         .fill(
                             LinearGradient(gradient: Gradient(colors: [.cyan, .blue]),
                                            startPoint: .topLeading,
-                                           endPoint: .bottomTrailing
-                                          ))
+                                           endPoint: .bottomTrailing))
                         .frame(width: 100, height: 100)
                         .shadow(color: .blue, radius: 10, x: 0, y: 10)
                         .overlay(
@@ -73,12 +72,9 @@ struct BackgroundOverlayBasic: View {
                                 .overlay(
                                     Text("2")
                                         .font(.headline)
-                                        .foregroundColor(.white)
-                                )
+                                        .foregroundColor(.white))
                                 .shadow(color: .red, radius: 10, x:5, y: 5)
-                            ,alignment: .bottomTrailing
-                        )
-                )
+                            ,alignment: .bottomTrailing))
                 .padding()
         }
     }
