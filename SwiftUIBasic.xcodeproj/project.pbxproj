@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022E75F52A9DBA57006FB8F3 /* Scrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E75F42A9DBA57006FB8F3 /* Scrollview.swift */; };
 		2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0791CD29DB124900057796 /* ImageBasic.swift */; };
 		2A32739729FE2AF800E2B604 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739629FE2AF800E2B604 /* Stack.swift */; };
 		2A32739929FE302500E2B604 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739829FE302500E2B604 /* Padding.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022E75F42A9DBA57006FB8F3 /* Scrollview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2A32739829FE302500E2B604 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				2A32739629FE2AF800E2B604 /* Stack.swift */,
 				2A32739829FE302500E2B604 /* Padding.swift */,
 				2A32739A29FE324400E2B604 /* Spacer.swift */,
+				022E75F42A9DBA57006FB8F3 /* Scrollview.swift */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
 			);
@@ -181,6 +184,7 @@
 				2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */,
 				2ACFAB8E29D874EF009F0E9B /* ColorBasic.swift in Sources */,
 				2ACFAB4D29D48228009F0E9B /* SwiftUIBasicApp.swift in Sources */,
+				022E75F52A9DBA57006FB8F3 /* Scrollview.swift in Sources */,
 				2AEB5D5B29DC6545004AB5B5 /* FrameBasic.swift in Sources */,
 				2A32739929FE302500E2B604 /* Padding.swift in Sources */,
 			);
