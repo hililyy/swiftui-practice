@@ -28,14 +28,14 @@ struct AnimationBasic: View {
                 Text("Button")
             }
             
-//            Spacer()
+            Spacer()
             
             RoundedRectangle(cornerRadius: isAnimated ? 50 : 0)
                 .fill(isAnimated ? Color.red : Color.green)
                 .frame(width: isAnimated ? 100 : 300, height: isAnimated ? 100 : 300)
                 .rotationEffect(Angle(degrees: isAnimated ? 360 : 0))
                 .offset(y: isAnimated ? 300 : 0)
-//            Spacer()
+            Spacer()
         }
         
         // 2번 View - Speed에 따른 animation

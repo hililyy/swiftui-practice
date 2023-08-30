@@ -64,7 +64,7 @@ struct ConditionalBasic: View {
                     .frame(width: 200, height: 100)
             }
             
-//            Spacer()
+            Spacer()
         }
     }
 }
