@@ -16,7 +16,9 @@ struct ConditionalBasic: View {
     var body: some View {
         VStack(spacing: 20) {
             Button {
-                isLoading.toggle()
+                withAnimation {
+                    isLoading.toggle()
+                }
             } label: {
                 Text("로드중...: \(isLoading.description)") // boolean 타입을 true / false로 나타냄
             }
@@ -26,13 +28,17 @@ struct ConditionalBasic: View {
             }
             
             Button {
-                showCircle.toggle()
+                withAnimation {
+                    showCircle.toggle()
+                }
             } label: {
                 Text("원형 버튼: \(showCircle.description)")
             }
             
             Button {
-                showRectangle.toggle()
+                withAnimation {
+                    showRectangle.toggle()
+                }
             } label: {
                 Text("사각형 버튼: \(showRectangle.description)")
             }
@@ -57,6 +63,8 @@ struct ConditionalBasic: View {
                     .fill(.red)
                     .frame(width: 200, height: 100)
             }
+            
+//            Spacer()
         }
     }
 }
