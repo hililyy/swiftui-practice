@@ -12,6 +12,9 @@
 		022E75F92A9DC856006FB8F3 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E75F82A9DC856006FB8F3 /* IgnoreSafeAreaBasic.swift */; };
 		022E75FB2A9DCB1C006FB8F3 /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E75FA2A9DCB1C006FB8F3 /* ButtonBasic.swift */; };
 		022E75FD2A9DCF3A006FB8F3 /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E75FC2A9DCF3A006FB8F3 /* StateBasic.swift */; };
+		022E76012A9EE6B9006FB8F3 /* ExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76002A9EE6B9006FB8F3 /* ExtractView.swift */; };
+		022E76052A9EE91F006FB8F3 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76042A9EE91F006FB8F3 /* ItemBasic.swift */; };
+		022E76072A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76062A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift */; };
 		2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0791CD29DB124900057796 /* ImageBasic.swift */; };
 		2A32739729FE2AF800E2B604 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739629FE2AF800E2B604 /* Stack.swift */; };
 		2A32739929FE302500E2B604 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739829FE302500E2B604 /* Padding.swift */; };
@@ -35,6 +38,9 @@
 		022E75F82A9DC856006FB8F3 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 		022E75FA2A9DCB1C006FB8F3 /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
 		022E75FC2A9DCF3A006FB8F3 /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
+		022E76002A9EE6B9006FB8F3 /* ExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractView.swift; sourceTree = "<group>"; };
+		022E76042A9EE91F006FB8F3 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
+		022E76062A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraSubViewBasic.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2A32739829FE302500E2B604 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
@@ -64,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022E76082A9F04B9006FB8F3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				022E76042A9EE91F006FB8F3 /* ItemBasic.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		2ACFAB4029D48228009F0E9B = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +115,9 @@
 				022E75F82A9DC856006FB8F3 /* IgnoreSafeAreaBasic.swift */,
 				022E75FA2A9DCB1C006FB8F3 /* ButtonBasic.swift */,
 				022E75FC2A9DCF3A006FB8F3 /* StateBasic.swift */,
+				022E76002A9EE6B9006FB8F3 /* ExtractView.swift */,
+				022E76062A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift */,
+				022E76082A9F04B9006FB8F3 /* Component */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
 			);
@@ -186,7 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				022E75FD2A9DCF3A006FB8F3 /* StateBasic.swift in Sources */,
+				022E76012A9EE6B9006FB8F3 /* ExtractView.swift in Sources */,
 				2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */,
+				022E76072A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift in Sources */,
+				022E76052A9EE91F006FB8F3 /* ItemBasic.swift in Sources */,
 				2ACFAB9029D89AAE009F0E9B /* GradientBasic.swift in Sources */,
 				022E75F92A9DC856006FB8F3 /* IgnoreSafeAreaBasic.swift in Sources */,
 				2ACFAB9229D8A091009F0E9B /* IconBasic.swift in Sources */,
