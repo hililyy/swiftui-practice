@@ -15,6 +15,8 @@
 		022E76012A9EE6B9006FB8F3 /* ExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76002A9EE6B9006FB8F3 /* ExtractView.swift */; };
 		022E76052A9EE91F006FB8F3 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76042A9EE91F006FB8F3 /* ItemBasic.swift */; };
 		022E76072A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76062A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift */; };
+		022E760A2A9F0555006FB8F3 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E76092A9F0555006FB8F3 /* BindingBasic.swift */; };
+		022E760C2A9F056E006FB8F3 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E760B2A9F056E006FB8F3 /* BindingChild.swift */; };
 		2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0791CD29DB124900057796 /* ImageBasic.swift */; };
 		2A32739729FE2AF800E2B604 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739629FE2AF800E2B604 /* Stack.swift */; };
 		2A32739929FE302500E2B604 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739829FE302500E2B604 /* Padding.swift */; };
@@ -41,6 +43,8 @@
 		022E76002A9EE6B9006FB8F3 /* ExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractView.swift; sourceTree = "<group>"; };
 		022E76042A9EE91F006FB8F3 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 		022E76062A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraSubViewBasic.swift; sourceTree = "<group>"; };
+		022E76092A9F0555006FB8F3 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		022E760B2A9F056E006FB8F3 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2A32739829FE302500E2B604 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				022E76042A9EE91F006FB8F3 /* ItemBasic.swift */,
+				022E760B2A9F056E006FB8F3 /* BindingChild.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 				022E75FC2A9DCF3A006FB8F3 /* StateBasic.swift */,
 				022E76002A9EE6B9006FB8F3 /* ExtractView.swift */,
 				022E76062A9EE9EC006FB8F3 /* ExtraSubViewBasic.swift */,
+				022E76092A9F0555006FB8F3 /* BindingBasic.swift */,
 				022E76082A9F04B9006FB8F3 /* Component */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
@@ -218,7 +224,9 @@
 				2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */,
 				2ACFAB8E29D874EF009F0E9B /* ColorBasic.swift in Sources */,
 				022E75F72A9DBEE9006FB8F3 /* LazyGrid.swift in Sources */,
+				022E760A2A9F0555006FB8F3 /* BindingBasic.swift in Sources */,
 				2ACFAB4D29D48228009F0E9B /* SwiftUIBasicApp.swift in Sources */,
+				022E760C2A9F056E006FB8F3 /* BindingChild.swift in Sources */,
 				022E75F52A9DBA57006FB8F3 /* Scrollview.swift in Sources */,
 				022E75FB2A9DCB1C006FB8F3 /* ButtonBasic.swift in Sources */,
 				2AEB5D5B29DC6545004AB5B5 /* FrameBasic.swift in Sources */,
