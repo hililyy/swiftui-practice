@@ -29,6 +29,7 @@
 		02B638D82AB182E300312A34 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638D72AB182E300312A34 /* ActionSheetBasic.swift */; };
 		02B638DA2AB1861C00312A34 /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638D92AB1861C00312A34 /* TextFieldBasic.swift */; };
 		02B638DC2AB18EB200312A34 /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638DB2AB18EB200312A34 /* ToggleBasic.swift */; };
+		02B638DE2AB18F7400312A34 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638DD2AB18F7400312A34 /* PickerBasic.swift */; };
 		02D7BB662A9F185E00419739 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7BB652A9F185E00419739 /* TransitionBasic.swift */; };
 		2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0791CD29DB124900057796 /* ImageBasic.swift */; };
 		2A32739729FE2AF800E2B604 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739629FE2AF800E2B604 /* Stack.swift */; };
@@ -70,6 +71,7 @@
 		02B638D72AB182E300312A34 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		02B638D92AB1861C00312A34 /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		02B638DB2AB18EB200312A34 /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
+		02B638DD2AB18F7400312A34 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		02D7BB652A9F185E00419739 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				02B638D72AB182E300312A34 /* ActionSheetBasic.swift */,
 				02B638D92AB1861C00312A34 /* TextFieldBasic.swift */,
 				02B638DB2AB18EB200312A34 /* ToggleBasic.swift */,
+				02B638DD2AB18F7400312A34 /* PickerBasic.swift */,
 				022E76082A9F04B9006FB8F3 /* Component */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
@@ -264,6 +267,7 @@
 				2ACFAB5B29D48293009F0E9B /* TextBasic.swift in Sources */,
 				2A32739729FE2AF800E2B604 /* Stack.swift in Sources */,
 				2ACFAB4F29D48228009F0E9B /* ContentView.swift in Sources */,
+				02B638DE2AB18F7400312A34 /* PickerBasic.swift in Sources */,
 				02D7BB662A9F185E00419739 /* TransitionBasic.swift in Sources */,
 				2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */,
 				02B638D82AB182E300312A34 /* ActionSheetBasic.swift in Sources */,
