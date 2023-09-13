@@ -26,6 +26,7 @@
 		02B638D02AB004E500312A34 /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638CF2AB004E500312A34 /* ListBasic.swift */; };
 		02B638D22AB0090A00312A34 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638D12AB0090A00312A34 /* AlertBasic.swift */; };
 		02B638D42AB00E4600312A34 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638D32AB00E4600312A34 /* ContextMenuBasic.swift */; };
+		02B638D82AB182E300312A34 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638D72AB182E300312A34 /* ActionSheetBasic.swift */; };
 		02D7BB662A9F185E00419739 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7BB652A9F185E00419739 /* TransitionBasic.swift */; };
 		2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0791CD29DB124900057796 /* ImageBasic.swift */; };
 		2A32739729FE2AF800E2B604 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739629FE2AF800E2B604 /* Stack.swift */; };
@@ -64,6 +65,7 @@
 		02B638CF2AB004E500312A34 /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
 		02B638D12AB0090A00312A34 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 		02B638D32AB00E4600312A34 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
+		02B638D72AB182E300312A34 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		02D7BB652A9F185E00419739 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				02B638CF2AB004E500312A34 /* ListBasic.swift */,
 				02B638D12AB0090A00312A34 /* AlertBasic.swift */,
 				02B638D32AB00E4600312A34 /* ContextMenuBasic.swift */,
+				02B638D72AB182E300312A34 /* ActionSheetBasic.swift */,
 				022E76082A9F04B9006FB8F3 /* Component */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
@@ -256,6 +259,7 @@
 				2ACFAB4F29D48228009F0E9B /* ContentView.swift in Sources */,
 				02D7BB662A9F185E00419739 /* TransitionBasic.swift in Sources */,
 				2ACFAB8C29D5C5BB009F0E9B /* ShapeBasic.swift in Sources */,
+				02B638D82AB182E300312A34 /* ActionSheetBasic.swift in Sources */,
 				022E76102A9F0D9F006FB8F3 /* AnimationBasic.swift in Sources */,
 				02B638CA2AAFF25900312A34 /* SheetBasic2.swift in Sources */,
 				02B638CE2AAFF7FD00312A34 /* SecondNavigationView.swift in Sources */,
