@@ -31,6 +31,7 @@
 		02B638DC2AB18EB200312A34 /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638DB2AB18EB200312A34 /* ToggleBasic.swift */; };
 		02B638DE2AB18F7400312A34 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638DD2AB18F7400312A34 /* PickerBasic.swift */; };
 		02B638E02AB1939F00312A34 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638DF2AB1939F00312A34 /* ColorPickerBasic.swift */; };
+		02B638E22AB196AE00312A34 /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B638E12AB196AE00312A34 /* DatePickerBasic.swift */; };
 		02D7BB662A9F185E00419739 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7BB652A9F185E00419739 /* TransitionBasic.swift */; };
 		2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0791CD29DB124900057796 /* ImageBasic.swift */; };
 		2A32739729FE2AF800E2B604 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32739629FE2AF800E2B604 /* Stack.swift */; };
@@ -74,6 +75,7 @@
 		02B638DB2AB18EB200312A34 /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		02B638DD2AB18F7400312A34 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		02B638DF2AB1939F00312A34 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
+		02B638E12AB196AE00312A34 /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
 		02D7BB652A9F185E00419739 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				02B638DB2AB18EB200312A34 /* ToggleBasic.swift */,
 				02B638DD2AB18F7400312A34 /* PickerBasic.swift */,
 				02B638DF2AB1939F00312A34 /* ColorPickerBasic.swift */,
+				02B638E12AB196AE00312A34 /* DatePickerBasic.swift */,
 				022E76082A9F04B9006FB8F3 /* Component */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
@@ -255,6 +258,7 @@
 			files = (
 				022E75FD2A9DCF3A006FB8F3 /* StateBasic.swift in Sources */,
 				02B638D02AB004E500312A34 /* ListBasic.swift in Sources */,
+				02B638E22AB196AE00312A34 /* DatePickerBasic.swift in Sources */,
 				022E76012A9EE6B9006FB8F3 /* ExtractView.swift in Sources */,
 				2A0791CE29DB124900057796 /* ImageBasic.swift in Sources */,
 				02B638C82AAFF24900312A34 /* SheetBasic.swift in Sources */,
