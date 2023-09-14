@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct SwiftUIBasicApp: App {
+    init() {
+        FontManager.registerFonts()
+    }
+    
     var body: some Scene {
         WindowGroup {
             TextFieldBasic()

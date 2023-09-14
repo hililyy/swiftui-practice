@@ -98,6 +98,7 @@
 		02B638FD2AB2AD2300312A34 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
 		02B638FF2AB2AD3300312A34 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
 		02B639012AB2AE4300312A34 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		02B639392AB2DEB400312A34 /* KOTRA_GOTHIC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KOTRA_GOTHIC.ttf; sourceTree = "<group>"; };
 		02D7BB652A9F185E00419739 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		2A0791CD29DB124900057796 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		2A32739629FE2AF800E2B604 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -238,6 +239,7 @@
 				022E76082A9F04B9006FB8F3 /* Component */,
 				02B638E52AB1AE5600312A34 /* MVVM */,
 				2ACFAB5029D4822A009F0E9B /* Assets.xcassets */,
+				02B639392AB2DEB400312A34 /* KOTRA_GOTHIC.ttf */,
 				2ACFAB5229D4822A009F0E9B /* Preview Content */,
 			);
 			path = SwiftUIBasic;

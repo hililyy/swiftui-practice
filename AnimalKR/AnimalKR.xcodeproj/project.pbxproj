@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B639102AB2B22600312A34 /* AnimalKRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6390F2AB2B22600312A34 /* AnimalKRApp.swift */; };
+		02B639122AB2B22600312A34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639112AB2B22600312A34 /* ContentView.swift */; };
+		02B639142AB2B22700312A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B639132AB2B22700312A34 /* Assets.xcassets */; };
+		02B639172AB2B22700312A34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B639162AB2B22700312A34 /* Preview Assets.xcassets */; };
+		02B6392B2AB2B60300312A34 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B639282AB2B60300312A34 /* covers.json */; };
+		02B6392C2AB2B60300312A34 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B639292AB2B60300312A34 /* animals.json */; };
+		02B6392D2AB2B60300312A34 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B6392A2AB2B60300312A34 /* videos.json */; };
+		02B639302AB2CA8200312A34 /* FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6392F2AB2CA8200312A34 /* FrameExtension.swift */; };
+		02B639322AB2CD7300312A34 /* JsonDecodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639312AB2CD7300312A34 /* JsonDecodeExtension.swift */; };
+		02B639342AB2CEB000312A34 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639332AB2CEB000312A34 /* SplashView.swift */; };
+		02B639362AB2D5EE00312A34 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639352AB2D5EE00312A34 /* HomeView.swift */; };
+		02B639382AB2DCFF00312A34 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639372AB2DCFF00312A34 /* VideoView.swift */; };
+		02B6393B2AB2DF2E00312A34 /* KOTRA_GOTHIC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02B6393A2AB2DF2D00312A34 /* KOTRA_GOTHIC.ttf */; };
+		02B639402AB2E14500312A34 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6393F2AB2E14500312A34 /* FontManager.swift */; };
+		02B639422AB2E17B00312A34 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639412AB2E17B00312A34 /* GalleryView.swift */; };
+		02B639442AB2E18400312A34 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639432AB2E18400312A34 /* AppInfoView.swift */; };
+		02B639462AB2E2E200312A34 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639452AB2E2E200312A34 /* AnimalModel.swift */; };
+		02B639482AB2ED0900312A34 /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639472AB2ED0900312A34 /* AnimalViewModel.swift */; };
+		02B6394A2AB2F7C900312A34 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639492AB2F7C900312A34 /* CoverImageView.swift */; };
+		02B6394C2AB2FA8E00312A34 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6394B2AB2FA8E00312A34 /* AnimalListView.swift */; };
+		02B6394E2AB300E800312A34 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6394D2AB300E800312A34 /* CreditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02B6390C2AB2B22600312A34 /* AnimalKR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalKR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B6390F2AB2B22600312A34 /* AnimalKRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalKRApp.swift; sourceTree = "<group>"; };
+		02B639112AB2B22600312A34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02B639132AB2B22700312A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B639162AB2B22700312A34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02B639282AB2B60300312A34 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = covers.json; path = "../../../../../../Downloads/강의자료-SwiftUIBasic/예제코드/02.AnimalKR/Project Data/05.Json/covers.json"; sourceTree = "<group>"; };
+		02B639292AB2B60300312A34 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animals.json; path = "../../../../../../Downloads/강의자료-SwiftUIBasic/예제코드/02.AnimalKR/Project Data/05.Json/animals.json"; sourceTree = "<group>"; };
+		02B6392A2AB2B60300312A34 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videos.json; path = "../../../../../../Downloads/강의자료-SwiftUIBasic/예제코드/02.AnimalKR/Project Data/05.Json/videos.json"; sourceTree = "<group>"; };
+		02B6392F2AB2CA8200312A34 /* FrameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtension.swift; sourceTree = "<group>"; };
+		02B639312AB2CD7300312A34 /* JsonDecodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecodeExtension.swift; sourceTree = "<group>"; };
+		02B639332AB2CEB000312A34 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		02B639352AB2D5EE00312A34 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02B639372AB2DCFF00312A34 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		02B6393A2AB2DF2D00312A34 /* KOTRA_GOTHIC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KOTRA_GOTHIC.ttf; sourceTree = "<group>"; };
+		02B6393F2AB2E14500312A34 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		02B639412AB2E17B00312A34 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		02B639432AB2E18400312A34 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		02B639452AB2E2E200312A34 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		02B639472AB2ED0900312A34 /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
+		02B639492AB2F7C900312A34 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		02B6394B2AB2FA8E00312A34 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		02B6394D2AB300E800312A34 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B639092AB2B22600312A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B639032AB2B22600312A34 = {
+			isa = PBXGroup;
+			children = (
+				02B6390E2AB2B22600312A34 /* AnimalKR */,
+				02B6390D2AB2B22600312A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B6390D2AB2B22600312A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B6390C2AB2B22600312A34 /* AnimalKR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B6390E2AB2B22600312A34 /* AnimalKR */ = {
+			isa = PBXGroup;
+			children = (
+				02B6393E2AB2E13A00312A34 /* Util */,
+				02B6391F2AB2B2FA00312A34 /* Extension */,
+				02B639232AB2B32000312A34 /* App */,
+				02B639222AB2B31300312A34 /* Model */,
+				02B639212AB2B30D00312A34 /* ViewModel */,
+				02B639202AB2B30600312A34 /* View */,
+				02B6391D2AB2B2D500312A34 /* Data */,
+				02B6393C2AB2DF8E00312A34 /* Resource */,
+				02B639132AB2B22700312A34 /* Assets.xcassets */,
+				02B639152AB2B22700312A34 /* Preview Content */,
+			);
+			path = AnimalKR;
+			sourceTree = "<group>";
+		};
+		02B639152AB2B22700312A34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02B639162AB2B22700312A34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02B6391D2AB2B2D500312A34 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02B639292AB2B60300312A34 /* animals.json */,
+				02B639282AB2B60300312A34 /* covers.json */,
+				02B6392A2AB2B60300312A34 /* videos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		02B6391F2AB2B2FA00312A34 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02B6392F2AB2CA8200312A34 /* FrameExtension.swift */,
+				02B639312AB2CD7300312A34 /* JsonDecodeExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		02B639202AB2B30600312A34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02B639272AB2B39400312A34 /* Content */,
+				02B639262AB2B38F00312A34 /* Video */,
+				02B639252AB2B36800312A34 /* Gallery */,
+				02B639242AB2B35C00312A34 /* AppInfo */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02B639212AB2B30D00312A34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02B639472AB2ED0900312A34 /* AnimalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		02B639222AB2B31300312A34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02B639452AB2E2E200312A34 /* AnimalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02B639232AB2B32000312A34 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02B6390F2AB2B22600312A34 /* AnimalKRApp.swift */,
+				02B639332AB2CEB000312A34 /* SplashView.swift */,
+				02B639352AB2D5EE00312A34 /* HomeView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		02B639242AB2B35C00312A34 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				02B639432AB2E18400312A34 /* AppInfoView.swift */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		02B639252AB2B36800312A34 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				02B639412AB2E17B00312A34 /* GalleryView.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		02B639262AB2B38F00312A34 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				02B639372AB2DCFF00312A34 /* VideoView.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		02B639272AB2B39400312A34 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				02B639112AB2B22600312A34 /* ContentView.swift */,
+				02B6394D2AB300E800312A34 /* CreditView.swift */,
+				02B639492AB2F7C900312A34 /* CoverImageView.swift */,
+				02B6394B2AB2FA8E00312A34 /* AnimalListView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		02B6393C2AB2DF8E00312A34 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				02B6393A2AB2DF2D00312A34 /* KOTRA_GOTHIC.ttf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		02B6393E2AB2E13A00312A34 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				02B6393F2AB2E14500312A34 /* FontManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B6390B2AB2B22600312A34 /* AnimalKR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B6391A2AB2B22700312A34 /* Build configuration list for PBXNativeTarget "AnimalKR" */;
+			buildPhases = (
+				02B639082AB2B22600312A34 /* Sources */,
+				02B639092AB2B22600312A34 /* Frameworks */,
+				02B6390A2AB2B22600312A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalKR;
+			productName = AnimalKR;
+			productReference = 02B6390C2AB2B22600312A34 /* AnimalKR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B639042AB2B22600312A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02B6390B2AB2B22600312A34 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 02B639072AB2B22600312A34 /* Build configuration list for PBXProject "AnimalKR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B639032AB2B22600312A34;
+			productRefGroup = 02B6390D2AB2B22600312A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B6390B2AB2B22600312A34 /* AnimalKR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B6390A2AB2B22600312A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B639172AB2B22700312A34 /* Preview Assets.xcassets in Resources */,
+				02B6392C2AB2B60300312A34 /* animals.json in Resources */,
+				02B6392D2AB2B60300312A34 /* videos.json in Resources */,
+				02B6392B2AB2B60300312A34 /* covers.json in Resources */,
+				02B6393B2AB2DF2E00312A34 /* KOTRA_GOTHIC.ttf in Resources */,
+				02B639142AB2B22700312A34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B639082AB2B22600312A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B6394C2AB2FA8E00312A34 /* AnimalListView.swift in Sources */,
+				02B639122AB2B22600312A34 /* ContentView.swift in Sources */,
+				02B639382AB2DCFF00312A34 /* VideoView.swift in Sources */,
+				02B639482AB2ED0900312A34 /* AnimalViewModel.swift in Sources */,
+				02B6394E2AB300E800312A34 /* CreditView.swift in Sources */,
+				02B639102AB2B22600312A34 /* AnimalKRApp.swift in Sources */,
+				02B639342AB2CEB000312A34 /* SplashView.swift in Sources */,
+				02B639442AB2E18400312A34 /* AppInfoView.swift in Sources */,
+				02B639462AB2E2E200312A34 /* AnimalModel.swift in Sources */,
+				02B6394A2AB2F7C900312A34 /* CoverImageView.swift in Sources */,
+				02B639362AB2D5EE00312A34 /* HomeView.swift in Sources */,
+				02B639302AB2CA8200312A34 /* FrameExtension.swift in Sources */,
+				02B639402AB2E14500312A34 /* FontManager.swift in Sources */,
+				02B639422AB2E17B00312A34 /* GalleryView.swift in Sources */,
+				02B639322AB2CD7300312A34 /* JsonDecodeExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02B639182AB2B22700312A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02B639192AB2B22700312A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B6391B2AB2B22700312A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalKR/Preview Content\"";
+				DEVELOPMENT_TEAM = 68P2WV4DR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lily.AnimalKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		02B6391C2AB2B22700312A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalKR/Preview Content\"";
+				DEVELOPMENT_TEAM = 68P2WV4DR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lily.AnimalKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B639072AB2B22600312A34 /* Build configuration list for PBXProject "AnimalKR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B639182AB2B22700312A34 /* Debug */,
+				02B639192AB2B22700312A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B6391A2AB2B22700312A34 /* Build configuration list for PBXNativeTarget "AnimalKR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B6391B2AB2B22700312A34 /* Debug */,
+				02B6391C2AB2B22700312A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B639042AB2B22600312A34 /* Project object */;
+}
