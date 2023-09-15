@@ -28,6 +28,11 @@
 		02B6394A2AB2F7C900312A34 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639492AB2F7C900312A34 /* CoverImageView.swift */; };
 		02B6394C2AB2FA8E00312A34 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6394B2AB2FA8E00312A34 /* AnimalListView.swift */; };
 		02B6394E2AB300E800312A34 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6394D2AB300E800312A34 /* CreditView.swift */; };
+		02B639512AB3EB1600312A34 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639502AB3EB1600312A34 /* DetailView.swift */; };
+		02B639532AB3F1BE00312A34 /* DetailHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639522AB3F1BE00312A34 /* DetailHead.swift */; };
+		02B639572AB3F29E00312A34 /* DetailGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639562AB3F29E00312A34 /* DetailGallery.swift */; };
+		02B639592AB3F63B00312A34 /* DetailFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B639582AB3F63B00312A34 /* DetailFact.swift */; };
+		02B6395B2AB3F72500312A34 /* ExternalWebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6395A2AB3F72500312A34 /* ExternalWebLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +58,11 @@
 		02B639492AB2F7C900312A34 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		02B6394B2AB2FA8E00312A34 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 		02B6394D2AB300E800312A34 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		02B639502AB3EB1600312A34 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		02B639522AB3F1BE00312A34 /* DetailHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHead.swift; sourceTree = "<group>"; };
+		02B639562AB3F29E00312A34 /* DetailGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGallery.swift; sourceTree = "<group>"; };
+		02B639582AB3F63B00312A34 /* DetailFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFact.swift; sourceTree = "<group>"; };
+		02B6395A2AB3F72500312A34 /* ExternalWebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,9 +201,10 @@
 			isa = PBXGroup;
 			children = (
 				02B639112AB2B22600312A34 /* ContentView.swift */,
-				02B6394D2AB300E800312A34 /* CreditView.swift */,
+				02B6394F2AB3EB0300312A34 /* DetailView */,
 				02B639492AB2F7C900312A34 /* CoverImageView.swift */,
 				02B6394B2AB2FA8E00312A34 /* AnimalListView.swift */,
+				02B6394D2AB300E800312A34 /* CreditView.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -212,6 +223,18 @@
 				02B6393F2AB2E14500312A34 /* FontManager.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		02B6394F2AB3EB0300312A34 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				02B639502AB3EB1600312A34 /* DetailView.swift */,
+				02B6395A2AB3F72500312A34 /* ExternalWebLink.swift */,
+				02B639582AB3F63B00312A34 /* DetailFact.swift */,
+				02B639562AB3F29E00312A34 /* DetailGallery.swift */,
+				02B639522AB3F1BE00312A34 /* DetailHead.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,12 +314,17 @@
 				02B6394C2AB2FA8E00312A34 /* AnimalListView.swift in Sources */,
 				02B639122AB2B22600312A34 /* ContentView.swift in Sources */,
 				02B639382AB2DCFF00312A34 /* VideoView.swift in Sources */,
+				02B639592AB3F63B00312A34 /* DetailFact.swift in Sources */,
 				02B639482AB2ED0900312A34 /* AnimalViewModel.swift in Sources */,
 				02B6394E2AB300E800312A34 /* CreditView.swift in Sources */,
 				02B639102AB2B22600312A34 /* AnimalKRApp.swift in Sources */,
+				02B6395B2AB3F72500312A34 /* ExternalWebLink.swift in Sources */,
 				02B639342AB2CEB000312A34 /* SplashView.swift in Sources */,
+				02B639572AB3F29E00312A34 /* DetailGallery.swift in Sources */,
 				02B639442AB2E18400312A34 /* AppInfoView.swift in Sources */,
 				02B639462AB2E2E200312A34 /* AnimalModel.swift in Sources */,
+				02B639512AB3EB1600312A34 /* DetailView.swift in Sources */,
+				02B639532AB3F1BE00312A34 /* DetailHead.swift in Sources */,
 				02B6394A2AB2F7C900312A34 /* CoverImageView.swift in Sources */,
 				02B639362AB2D5EE00312A34 /* HomeView.swift in Sources */,
 				02B639302AB2CA8200312A34 /* FrameExtension.swift in Sources */,
